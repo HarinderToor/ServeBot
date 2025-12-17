@@ -24,13 +24,8 @@ You can then install all the dependencies with:
 $ uv sync
 ```
 
-You can then activate the virtual environment with:
+You can then start the bot with:
 
 ```console
-$ source .venv/bin/activate
-```
-Then start the bot with:
-
-```console
-$ python -m bot.py
+$ uv run bot.py
 ```
